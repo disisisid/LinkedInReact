@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-weight: 100;
+
 }
 
 .App-logo {
@@ -35,4 +37,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-top: 20px;
+}
+
+table{
+  margin: auto;
+  /*border: 1px solid;*/
+  width: 70%;
+  margin-top: 2.8%;
+  border-spacing: 0px;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+  background: #f9fcff;
+}
+
+td, th{
+  border-bottom: 1px solid lightgrey;
+  /*border-collapse: unset;*/
+  padding: 20px;
+}
+
+tr:last-child td{
+  border-bottom: 0;
+}
+
+tr{
+  border-bottom: 1px solid;
+}
+
+th{
+  font-weight: 400;
 }
